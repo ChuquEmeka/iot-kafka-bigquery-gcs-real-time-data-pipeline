@@ -3,11 +3,11 @@ import time
 
 # Kafka configuration
 conf = {
-    'bootstrap.servers': 'pkc-75m1o.europe-west3.gcp.confluent.cloud:9092',
+    'bootstrap.servers': '<your bootstrap server>',
     'security.protocol': 'SASL_SSL',
     'sasl.mechanism': 'PLAIN',
-    'sasl.username': 'TAEKSX72URDUIXWU',
-    'sasl.password': 'iLUYR6nD7HpL8wAbc9jmvkTDeDj7rO1XCycodpbetGGmCjNOmI1dDbL0z/twtBBS'
+    'sasl.username': '<your api key>',
+    'sasl.password': '<your api secret>'
 }
 
 # Create AdminClient
