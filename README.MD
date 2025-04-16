@@ -1,4 +1,4 @@
-# Healthcare IoT Data Pipeline Project
+# IoT Kafka BigQuery GCS Real-Time Data Pipeline Project
 
 Watch the video demonstration of this project on [YouTube](https://youtu.be/1tE6pKaLzpI) to see the pipeline in action.
 
