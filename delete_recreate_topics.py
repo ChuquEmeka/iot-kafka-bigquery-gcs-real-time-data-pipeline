@@ -44,11 +44,11 @@ for topic in all_topics:
     time.sleep(2)
 
 # Step 3: Recreate only the specified topics
-# print(f"\n Recreating selected topics: {topics_to_recreate}")
-# for topic in topics_to_recreate:
-#     print(f"\n Creating topic: {topic}")
-#     create_cmd = f"confluent kafka topic create {topic} --partitions 6"
-#     run_command(create_cmd)
-#     time.sleep(2)
+print(f"\n Recreating selected topics: {topics_to_recreate}")
+for topic in topics_to_recreate:
+    print(f"\n Creating topic: {topic}")
+    create_cmd = f"confluent kafka topic create {topic} --partitions 6"
+    run_command(create_cmd)
+    time.sleep(2)
 
 print("\n+ All topics have been deleted and required topics recreated.")
